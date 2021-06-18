@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header-top d-flex justify-content-between align-items-center">
+            <form class="search" method="get" action="">
+                <input class="search__input" type="text" placeholder="Поиск ...">
+                <input type="submit" class="search__submit" value="">
+            </form>
+            <div class="logo">
+                <a href="index.html">
+                    ShopKofe
+                </a>
+                <hr>
+            </div>
+            <div class="header-top__el">
+                <a href="login.html">
+                    Войти
+                </a>
+                <a href="register.html">
+                    Регистрация
+                </a>
+                <a href="basket.html">
+                    Корзина
+                </a>
+            </div>
+        </div>
+        <nav class="nav">
+            <ul class="main-menu d-flex">
+                <li>
+                    <a href="#">Меню</a>
+                </li>
+                <li>
+                    <a href="#">Доставка</a>
+                </li>
+                <li>
+                    <a href="#">О нас</a>
+                </li>
+                <li>
+                    <a href="#">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<div class="background-section">
+    <section class="section-content">
+        <div class="container">
+            <h1>
+                Регистрация
+                <hr>
+            </h1>
+
+        </div>
+        <div class="container-wrapper d-flex">
+            <aside>
+                <h3>
+                    Меню
+                </h3>
+                <ul>
+                    <li><a href="">Кофе</a><hr></li>
+                    <li><a href="">Мороженое</a><hr></li>
+                    <li><a href="">Пицца</a><hr></li>
+                    <li><a href="">Роллы</a><hr></li>
+                    <li><a href="">Выпечка</a><hr></li>
+                    <li><a href="">Коктейли</a><hr></li>
+                    <li><a href="">Супы</a><hr></li>
+                    <li><a href="">Чай</a><hr></li>
+                </ul>
+            </aside>
+            <div class="content login">
+                <form class="form-log" action="api.php" method="post">
+                    <label for="name">
+                        Имя
+                        <input id="name" placeholder="Имя" name="name" type="text">
+                    </label>
+
+                    <label for="email">
+                        Email
+                        <input id="email" placeholder="Email" name="email" type="email">
+                    </label>
+
+                    <label for="password">
+                        Пароль
+                        <input id="password" placeholder="Пароль" name="password" type="password">
+                    </label>
+
+                    <label for="conf_password">
+                        Повторный ввод пароля
+                        <input id="conf_password" placeholder="Повторить ввод пароля" name="conf_password" type="password">
+                    </label>
+
+                    <input type="submit" value="Отправить" name="submit">
+                </form>
+            </div>
+        </div>
+
+    </section>
+</div>
+<footer>
+    <div class="container">
+        <div class="footer-menu d-flex justify-content-between">
+            <div>
+                <img src="" alt="" class="logo">
+                <h4>Новостная рассылка</h4>
+                <form class="subscribe d-flex" action="" method="post">
+                    <input placeholder="Email" class="subscribe_input" type="text">
+                    <button class="subscribe_submit"><img src="img/send.svg" alt=""></button>
+                </form>
+                <p>Подпишитесь на наши новости и акции</p>
+                <h4>МЫ В СОЦСЕТЯХ</h4>
+                <div class="social d-flex">
+                    <a href=""><img src="img/facebook.svg" alt=""></a>
+                    <a href=""><img src="img/twitter.svg" alt=""></a>
+                    <a href=""><img src="img/vk.svg" alt=""></a>
+                    <a href=""><img src="img/instagram.svg" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <h4>О КОМПАНИИ</h4>
+                <ul>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Наши новости</a></li>
+                    <li><a href="#">Адреса магазинов</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Помощь</h4>
+                <ul>
+                    <li><a href="#">Оплата</a></li>
+                    <li><a href="#">Условия доставки</a></li>
+                    <li><a href="#">Доставка в регионы</a></li>
+                    <li><a href="#">Правила продажи</a></li>
+                    <li><a href="#">Права покупателя</a></li>
+                    <li><a href="#">Полезные статьи</a></li>
+                    <li><a href="#">Условия сотрудничества</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Условия сотрудничества</h4>
+                <ul>
+                    <li><a href="#">Для ресторанов, кафе</a></li>
+                    <li><a href="#">Оптовым покупателям</a></li>
+                </ul>
+                <h4>Личный кабинет</h4>
+                <ul>
+                    <li><a href="#">Личный кабинет</a></li>
+                    <li><a href="#">История заказов</a></li>
+                    <li><a href="#">Избранное</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
